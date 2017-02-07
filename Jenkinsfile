@@ -1,6 +1,6 @@
 #!groovy
 
-@Library('utils') import net.kukinet.Zot
+@Library('pipeline-shared-library') import net.kukinet.Zot
 //def utils = new Utilities(steps)
 
    def z = new Zot()
