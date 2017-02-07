@@ -1,9 +1,15 @@
+#!groovy
+
+@Library('utils') import net.kukinet.Zot
+//def utils = new Utilities(steps)
+
+   def z = new Zot()
+   z.checkOutFrom(repo)
+
 node {
    
    def mvnHome
    
-   def z = new net.kukinet.Zot()
-   z.checkOutFrom(repo)
    
    
    stage('Preparation') { // for display purposes
