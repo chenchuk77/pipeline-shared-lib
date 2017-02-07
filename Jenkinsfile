@@ -3,10 +3,10 @@
 @Library('pipeline-shared-lib') import net.kukinet.Zot
 //def utils = new Utilities(steps)
 
+node {
    def z = new Zot()
    z.checkOutFrom('232322233')
 
-node {
    
    def mvnHome
    
