@@ -12,7 +12,8 @@ def get_artifacts(from_folder) {
             artifacts.add(it)
         }
     }
-    return artifacts
+//    return artifacts
+    return 'stam list'
 }
 
 @NonCPS
