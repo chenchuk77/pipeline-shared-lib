@@ -1,7 +1,6 @@
 package net.kukinet;
 import static groovy.io.FileType.FILES
 
-@NonCPS
 def get_artifacts(from_folder) {
     //from_folder = '/home/chenchuk/dev/unlk/lms'
     def artifacts = []
