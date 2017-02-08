@@ -14,8 +14,8 @@ def get_artifacts(from_folder) {
             artifacts.add(it)
         }
     }
-//    return artifacts
-    return from_folder
+    return artifacts
+//    return from_folder
 }
 
 def print_artifacts(artifacts){
