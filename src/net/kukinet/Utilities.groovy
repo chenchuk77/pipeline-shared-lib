@@ -14,6 +14,13 @@ def get_artifacts(from_folder) {
     return artifacts
 }
 
+@NonCPS
+def print_artifacts(artifacts){
+    artifacts.each{
+        println "artifact: ${it}"
+    }
+}
+
 def do_something(){
   sh "echo 'doing something ...'"
 }
