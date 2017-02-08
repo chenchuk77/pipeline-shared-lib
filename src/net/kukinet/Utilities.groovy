@@ -2,6 +2,7 @@ package net.kukinet;
 import static groovy.io.FileType.FILES
 
 def get_artifacts(from_folder) {
+    println(from_folder)
     //from_folder = '/home/chenchuk/dev/unlk/lms'
     def artifacts = []
     new File(from_folder).eachFileRecurse(FILES) {
