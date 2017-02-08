@@ -13,7 +13,7 @@ def get_artifacts(from_folder) {
         }
     }
 //    return artifacts
-    return 'stam list'
+    return from_folder
 }
 
 @NonCPS
